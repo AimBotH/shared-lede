@@ -5,6 +5,9 @@
 
 include $(TOPDIR)/rules.mk
 
+export GO111MODULE=on
+export GOPROXY=https://goproxy.cn
+
 PKG_NAME:=smartdns
 PKG_VERSION:=1.2023.43
 PKG_RELEASE:=1

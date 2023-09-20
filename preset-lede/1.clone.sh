@@ -4,7 +4,6 @@
 git clone --depth 1 https://github.com/coolsnowwolf/lede.git && mv ./lede/* ./
 
 # 下载插件
-sudo apt install libfuse-dev
 rm -rf package/lean/luci-theme-argon
 mkdir -p package/supply-packages && cd package/supply-packages
 git clone --depth 1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
